@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INQUISITORS AI & QUIZ SOCIETY</title>
+</head>
+<body>
+    <div id="progressBar"></div>
+    <header>
+        <h1>INQUISITORS AI & QUIZ SOCIETY</h1>
+         <nav id="nav-bar">
+            <div class="logo">
+               <img src="image/logo.jpeg" alt="Inquisitor Society" class="logo-img">
+            </div>
+            <div class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contacts.html">Contact</a>
+            <a href="Events.html">Events</a>
+            <button id="themeToggle">🌙</button>
+               <div class="hamburger">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+               </div>
+            </div>
+        </nav>
+<hr>
+    </header>
+    <main>
+         <section id="contact-intro">
+        <h2>Get in Touch</h2>
+        <p>
+            Have a question about our events, want to partner with us, or interested
+            in joining Inquisitors? We would love to hear from you.
+        </p>
+    </section>
+ 
+    <section >
+        <h2>Contact Details</h2>
+ 
+        <address>
+            <p><strong>Inquisitors - AI &amp; Quiz Society</strong></p>
+            <p>Student Activities Center, Room 214</p>
+            <p>National University of Technology</p>
+            <p>Islamabad, Pakistan</p>
+            <p>Phone: <a href="tel:+920000000000">+92 000 0000000</a></p>
+            <p>Email: <a href="mailto:info@inquisitors.org">info@inquisitors.org</a></p>
+        </address>
+    </section>
+ 
+    <section>
+        <h2>Office Hours</h2>
+        <table>
+            <p>Weekly availability of the Inquisitors office</p>
+            <thead>
+                <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Thursday</td>
+                    <td>10:00 AM - 4:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10:00 AM - 1:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Send Us a Message</h2>
+ 
+        <form action="/submit-contact" method="post">
+ 
+            <p>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="full_name" required>
+            </p>
+ 
+            <p>
+                <label for="email-address">Email Address:</label><br>
+                <input type="email" id="email-address" name="email" required>
+            </p>
+ 
+            <p>
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="membership">Membership Question</option>
+                    <option value="partnership">Partnership / Collaboration</option>
+                    <option value="event-registration">Event Registration</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </p>
+ 
+            <p>
+                <label for="contact-message">Message:</label><br>
+                <textarea id="contact-message" name="message" rows="6" cols="40" required></textarea>
+            </p>
+ 
+            <p class="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Subscribe me to the Inquisitors newsletter</label>
+            </p>
+ 
+            <p>
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+            </p>
+ 
+        </form>
+    </section>
+    </main>
+
+<footer>
+<p>© 2026 INQUISITORS AI & Quiz Society</p>
+<h3>Follow Us</h3>
+<a href="https://www.facebook.com" target="_blank">Facebook</a>
+|
+<a href="https://www.instagram.com" target="_blank">Instagram</a>
+|
+<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+|<a href="https://www.youtube.com" target="_blank">YouTube</a>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
